@@ -1,0 +1,15 @@
+[push]
+	default = simple
+[user]
+	name = Jason Mitchell
+	email = <email>
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
