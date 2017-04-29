@@ -7,10 +7,19 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'editorconfig/editorconfig-vim'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()
 filetype plugin indent on
+
+" show existing tab with d spaces width
+set tabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+" On pressing tab, insert 2 spaces
+set expandtab
 
 syntax on
 set background=dark
