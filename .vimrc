@@ -5,11 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'elixir-lang/vim-elixir'
-Plugin 'ekalinin/Dockerfile.vim'
-Plugin 'editorconfig/editorconfig-vim'
-Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 filetype plugin indent on
@@ -22,8 +18,7 @@ set shiftwidth=2
 set expandtab
 
 syntax on
-set background=dark
-colorscheme solarized
+colorscheme wombat
 
 set relativenumber
 set number 
